@@ -1,0 +1,6 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
