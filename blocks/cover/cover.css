@@ -1,11 +1,5 @@
 .cover {
-  position: relative;
-  display: flex;
-  flex-direction: column;
   font-family: 'Inter';
   color: #FFFFFF;
 }
 
-.cover:hover {
-  opacity: 0.8;
-}

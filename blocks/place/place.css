@@ -1,6 +1,6 @@
 .place {
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  color: #FFFFFF;
-  padding-bottom: 50px;
+  row-gap: 32px;
 }

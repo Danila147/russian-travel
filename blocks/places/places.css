@@ -1,7 +1,7 @@
 .places {
-padding-bottom: 66px;
+padding: 0 0 66px;
+font-family: 'Inter';
 display: flex;
 flex-direction: column;
-align-items: stretch;
-font-family: 'Inter';
+row-gap: 50px;
 }
