@@ -4,3 +4,10 @@
   row-gap: 12px;
   padding: 0 16px;
 }
+
+@media(min-width: 768px) {
+  .place__website {
+    padding: 0;
+    justify-content: end;
+  }
+}

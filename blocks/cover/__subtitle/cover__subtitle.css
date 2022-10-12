@@ -7,3 +7,11 @@
   margin: 0;
   white-space: pre-line;
 }
+
+@media(min-width: 768px) {
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+

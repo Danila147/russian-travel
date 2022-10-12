@@ -2,6 +2,24 @@
   padding: 64px 118px 24px 16px;
   display: flex;
   flex-direction: column;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #FFFFFF;
+  gap: 48px;
+}
+
+@media(min-width: 768px) {
+  .footer {
+    padding: 84px 24px 24px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media(min-width: 1024px) {
+  .footer {
+    padding-top: 92px;
+    padding-right: 48px;
+    padding-left: 48px;
+
+  }
 }

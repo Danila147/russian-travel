@@ -6,3 +6,15 @@
   font-size: 16px;
   line-height: 1.63;
 }
+
+@media(min-width: 768px) {
+  .place__paragraph {
+    padding: 0;
+  }
+}
+
+@media(min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+  }
+}

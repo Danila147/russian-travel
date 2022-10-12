@@ -8,3 +8,18 @@
   text-transform: uppercase;
   align-self: start;
 }
+
+@media(min-width: 768px) {
+  .lead__caption {
+    font-size: 10px;
+    line-height: 1.4;
+    padding-left: 24px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .lead__caption {
+    padding: 0;
+  }
+}
+
