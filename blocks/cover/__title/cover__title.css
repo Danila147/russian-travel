@@ -5,7 +5,7 @@
   line-height: 1.09;
   text-align: center;
   margin: 0;
-  white-space: pre-line;
+  max-width: 288px;
 }
 
 
@@ -13,5 +13,6 @@
   .cover__title {
     font-size: 72px;
     line-height: 1.06;
+    max-width: 560px;
   }
 }
