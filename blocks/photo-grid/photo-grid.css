@@ -1,11 +1,6 @@
 .photo-grid {
   padding: 0 16px 64px;
   margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-  grid-template-rows: repeat (auto-fit, minmax(216px, 1fr));
-  gap: 12px;
-  list-style-type: none;
 }
 
 @media(min-width: 768px) {
@@ -13,7 +8,6 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 88px;
-    gap: 16px;
   }
 }
 

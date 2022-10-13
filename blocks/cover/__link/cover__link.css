@@ -34,22 +34,23 @@
 
 @media(min-width: 768px) {
   .cover__link {
-    max-height: 480px;
-    padding: 115px 104px;
+    min-height: 480px;
+    /* padding: 115px 104px; */
+    padding: 0;
     gap: 32px;
   }
 }
 
 @media(min-width: 1024px) {
   .cover__link {
-    max-height: 640px;
-    padding: 232px 195px;
+    min-height: 640px;
+    /* padding: 232px 195px; */
   }
 }
 
 @media(min-width: 1280px) {
   .cover__link {
-    max-height: 740px;
-    padding: 245px 312px;
+    min-height: 740px;
+   /* padding: 245px 312px; */
   }
 }
