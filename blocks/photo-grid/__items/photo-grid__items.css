@@ -20,7 +20,7 @@
   .photo-grid__items {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
-    gap: 16px;
+    gap: 14px;
   }
 }
 
